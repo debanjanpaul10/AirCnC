@@ -1,0 +1,36 @@
+The media query can be added to the single CSS file by making it as the syntax --->
+
+@media only screen and (min-width: <size>px) {
+    codes
+}
+
+the above code means that when we hit greater than <size>px add the extra codes. Else, don't.
+Most useful for mobile site approach.
+
+If the desktop site approach is used, the syntax becomes --->
+
+@media only screen and (max-width: <size>px) {
+    codes
+}
+
+the above code means that when we become less that <size>px add the extra codes. Else, don't.
+
+Add clearfix command with float-clear type situations to ease the clear part
+Syntax --->
+<div class="clearfix <classname>">
+codes
+</div>
+
+to the CSS add-->
+
+    .clearfix:after {
+        content: "";
+        display: table;
+        clear: both;    
+    }
+
+See MDN and Google to check out media query in CSS.
+
+Two classes can be added to a single div/section/aside tag using the syntax --->
+
+    <div class ="class_1 class_2"> ....</div>
